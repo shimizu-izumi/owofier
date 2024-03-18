@@ -2,6 +2,7 @@ import "@/styles/globals.css";
 
 import { Nunito } from "next/font/google";
 import Providers from "@/components/Providers";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const nunito = Nunito({
   subsets: ["latin"],
@@ -23,6 +24,7 @@ export default function RootLayout({
         <Providers>
           <main className="flex min-h-screen flex-col items-center justify-center">
             {children}
+            <SpeedInsights />
           </main>
         </Providers>
       </body>
