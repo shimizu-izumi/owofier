@@ -28,6 +28,7 @@ const config = {
         "argsIgnorePattern": "^_"
       }
     ],
+    "@next/next/no-img-element": "off",
     "@typescript-eslint/require-await": "off",
     "@typescript-eslint/no-misused-promises": [
       "error",
@@ -37,6 +38,6 @@ const config = {
         }
       }
     ]
-  }
+  },
 }
 module.exports = config;
