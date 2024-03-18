@@ -1,9 +1,11 @@
 "use client";
 
+import Image from "next/image";
+
 export default function Notfound() {
   return (
     <div>
-      <img
+      <Image
         src={"https://http.dog/404.jpg"}
         alt={"Not Found"}
         width={512}
